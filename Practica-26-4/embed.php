@@ -1,3 +1,9 @@
+<?php
+$nombre = Gisela
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,7 +13,7 @@
   <body>
     <h1>La Internet</h1>
     <marquee>Bienvenidos al mundo de la internet</marquee>
-    <h2>Bienvenido [NOMBRE]</h2>
+    <h2>Bienvenido <?php $nombre ?> </h2>
     <h3>¿Es usted un ganador?</h3>
 
     <h3>Algunos sitios interesantes:</h3>
