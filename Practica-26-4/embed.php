@@ -38,7 +38,7 @@ $sitios = [
     <h3>Algunos sitios interesantes:</h3>
     <ul>
       <li>
-        <a href="https://google.com">xx </a>
+        <a href="https://google.com"><?php foreach($sitio as $valor) </a>
       </li>
     </ul>
   </body>
