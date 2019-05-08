@@ -5,15 +5,18 @@ $numero = rand(0,1);
 
 $sitios = [
   0 => [
-    'pagina' => 'Google'
-    'url' => 'https://google.com']
+    'pagina' => 'Google',
+    'url' => 'https://google.com',
+  ],
   1 => [
-    'pagina' => 'Facebook'
-    'url' => 'https://facebook.com']
+    'pagina' => 'Facebook',
+    'url' => 'https://facebook.com',
+  ],
   2 => [
-    'pagina' => 'Twitter'
-    'url' => 'https://twitter.com']
-  ];
+    'pagina' => 'Twitter',
+    'url' => 'https://twitter.com',
+  ],
+];
 
 ?>
 
@@ -38,7 +41,7 @@ $sitios = [
     <h3>Algunos sitios interesantes:</h3>
     <ul>
       <li>
-        <a href="https://google.com"><?php foreach($sitio as $valor) </a>
+        <a href="https://google.com"><?php foreach ($sitios as $valor): ?> $valor['pagina'] <?php endforeach ?> </a>
       </li>
     </ul>
   </body>

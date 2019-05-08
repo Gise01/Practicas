@@ -1,3 +1,87 @@
+<?php
+[
+	0 => [
+	“id” => 1
+	“titulo” => “Lorem Ipsum”,
+	“descripcion” => “Lorem Ipsum”,
+	“precio” => 300,
+	“imagen” => “img-pdto-1.jpg”,
+	“enOferta” => true
+	],
+	1 => [
+	“id” => 2
+	“titulo” => “Lorem Ipsum”,
+	“descripcion” => “Lorem Ipsum”,
+	“precio” => 500,
+	“imagen” => “img-pdto-2.jpg”,
+	“enOferta” => false
+	]
+	2 => [
+		“id” => 1
+		“titulo” => “Lorem Ipsum”,
+		“descripcion” => “Lorem Ipsum”,
+		“precio” => 300,
+		“imagen” => “img-pdto-2.jpg”,
+		“enOferta” => true
+		],
+	3 => [
+		“id” => 2
+		“descripcion” => “Lorem Ipsum”,
+		“titulo” => “Lorem Ipsum”,
+		“precio” => 500,
+		“imagen” => “img-pdto-3.jpg”,
+		“enOferta” => false
+		],
+	4 => [
+		“id” => 1
+		“titulo” => “Lorem Ipsum”,
+		“descripcion” => “Lorem Ipsum”,
+		“precio” => 300,
+		“imagen” => “img-pdto-1.jpg”,
+		“enOferta” => true
+		],
+	5 => [
+		“id” => 2
+		“titulo” => “Lorem Ipsum”,
+		“descripcion” => “Lorem Ipsum”,
+		“precio” => 500,
+		“imagen” => “img-pdto-2.jpg”,
+		“enOferta” => false
+		],
+	6 => [
+		“id” => 1
+		“titulo” => “Lorem Ipsum”,
+		“descripcion” => “Lorem Ipsum”,
+		“precio” => 300,
+		“imagen” => “img-pdto-1.jpg”,
+		“enOferta” => true
+		],
+	7 => [
+		“id” => 2
+		“titulo” => “Lorem Ipsum”,
+		“descripcion” => “Lorem Ipsum”,
+		“precio” => 500,
+		“imagen” => “img-pdto-2.jpg”,
+		“enOferta” => false
+		],
+	8 => [
+		“id” => 1
+		“titulo” => “Lorem Ipsum”,
+		“descripcion” => “Lorem Ipsum”,
+		“precio” => 300,
+		“imagen” => “img-pdto-1.jpg”,
+		“enOferta” => true
+		],
+	9 => [
+		“id” => 2
+		“titulo” => “Lorem Ipsum”,
+		“descripcion” => “Lorem Ipsum”,
+		“precio” => 500,
+		“imagen” => “img-pdto-2.jpg”,
+		“enOferta” => false
+		],
+];
+?>
 <!DOCTYPE html>
 <html>
 	<head>
